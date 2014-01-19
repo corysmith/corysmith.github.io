@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding/</loc>
+        <lastmod>2014-01-18T18:11:12-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://corysmith.github.io/blog/archives/</loc>
-        <lastmod>2014-01-18T17:42:01-07:00</lastmod>
+        <lastmod>2014-01-18T18:11:12-07:00</lastmod>
     </url>
     <url>
         <loc>http://corysmith.github.io/</loc>
-        <lastmod>2014-01-18T17:42:01-07:00</lastmod>
+        <lastmod>2014-01-18T18:11:12-07:00</lastmod>
     </url>
     <url>
         <loc>http://corysmith.github.io/robots.txt</loc>

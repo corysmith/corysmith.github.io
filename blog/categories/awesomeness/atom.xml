@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://corysmith.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Awesomeness | My Octopress Blog]]></title>
+  <link href="http://corysmith.github.io/blog/categories/awesomeness/atom.xml" rel="self"/>
   <link href="http://corysmith.github.io/"/>
   <updated>2014-01-18T18:11:51-07:00</updated>
   <id>http://corysmith.github.io/</id>
