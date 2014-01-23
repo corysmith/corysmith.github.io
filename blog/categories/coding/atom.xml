@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Cory's Blog of ABC's]]></title>
-  <link href="http://corysmith.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: coding | Cory's Blog of ABC's]]></title>
+  <link href="http://corysmith.github.io/blog/categories/coding/atom.xml" rel="self"/>
   <link href="http://corysmith.github.io/"/>
   <updated>2014-01-22T21:15:03-07:00</updated>
   <id>http://corysmith.github.io/</id>
@@ -58,53 +58,6 @@ multiply_by_11(19)
 <h3>Conclusion</h3>
 
 <p> We created the method &ldquo;multiply_by_11&rdquo; above, we gave it the <strong>parameter</strong> &ldquo;n&rdquo; for number, but passed it the <strong>argument</strong> 10,101, and 19 when we called it. When the program is ran, it will spit out the answers 110, 1111, and 209.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Awesomeness. Business. Coding.]]></title>
-    <link href="http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding/"/>
-    <updated>2014-01-18T18:08:44-07:00</updated>
-    <id>http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding</id>
-    <content type="html"><![CDATA[<p>Welcome to my blog!</p>
-
-<br/>
-
-
-<ul>
-<li>Code: I will post various problems and solutions for the problems I run into.</li>
-<li>Business: I will talk about different brands, interesting articles and business practices good and bad.</li>
-<li>Life: I enjoy life to the fullest</li>
-</ul>
-
-
-<br/>
-
-
-<br/>
-
-
-<br/>
-
-
-<blockquote><p>&ldquo;Some people drift through their entire life. They do it one day at a time, one week at a time, one month at a time. It happens so gradually they are unaware of how their lives are slipping away until it&rsquo;s too late.&rdquo;</p></blockquote>
-
-<p>The thought of that is absolutely scary. One of my business mentors always has told me to visualize myself as a lemon and at the very end of life, you want to make sure you have squeezed every drop of life out of that lemon.</p>
-
-<br/>
-
-
-<h2>Commitment <br/></h2>
-
-<p>My goal is to update this site <strong>once a week</strong> or as I come across coding issues that have caused me major headaches. To try and help you avoid what I went through in a lot shorter time.</p>
-
-<br/>
-
-
-<br/>
-
-
-<p>-Cory Smith</p>
 ]]></content>
   </entry>
   
