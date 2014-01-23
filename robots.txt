@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://corysmith.github.io/sitemap.xml 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Cory's Blog of ABC's]]></title>
+  <link href="http://corysmith.github.io/atom.xml" rel="self"/>
+  <link href="http://corysmith.github.io/"/>
+  <updated>2014-01-22T21:15:03-07:00</updated>
+  <id>http://corysmith.github.io/</id>
+  <author>
+    <name><![CDATA[Cory Smith]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Arguments vs Parameters]]></title>
+    <link href="http://corysmith.github.io/blog/2014/01/22/arguments-vs-parameters/"/>
+    <updated>2014-01-22T20:58:41-07:00</updated>
+    <id>http://corysmith.github.io/blog/2014/01/22/arguments-vs-parameters</id>
+    <content type="html"><![CDATA[<p>No, no. I am not talking about proper ways to communicate or anything like that. That&rsquo;s a whole other coversation. Today&rsquo;s post is about coding.<br></p>
+
+<br>
+
+
+<h2>What is it?</h2>
+
+<br>
+
+
+<p>Parameters and Arguments are very common practices and the <strong>foundation</strong> of Ruby coding. This can be very confusing when new to ruby.</p>
+
+<pre><code>def multiply_by_11(n)   
+  puts n * 11
+end
+
+multiply_by_11(10)
+multiply_by_11(101)
+multiply_by_11(19)   
+</code></pre>
+
+<br>
+
+
+<p>Above is a very simple Method that I &ldquo;defined&rdquo; AKA named &ldquo;multiply_by_11&rdquo;. It takes whatever number I want and multiplies it by 11. Which is the best number in the world, if I must say. For no reason, other then it is my favorite number. Okay enough jibber jabber. Let&rsquo;s get back to business.</p>
+
+<h3>Parameter</h3>
+
+<p>I like to think of a parameter as a &ldquo;place holder&rdquo; or a &ldquo;nickname&rdquo; for that patucular section of code.   The (n) right after &ldquo;multiply_by_11&rdquo; is the parameter that is short for number.</p>
+
+<h3>Argument</h3>
+
+<p>Is the actual number that I want to find the answer to. In this case there is a total of 3 arguments (10), (101), and (19). An argument is only at the end, after the method is defined and the parameter is set.</p>
+
+<br>
+
+
+<h3>Conclusion</h3>
+
+<p> We created the method &ldquo;multiply_by_11&rdquo; above, we gave it the <strong>parameter</strong> &ldquo;n&rdquo; for number, but passed it the <strong>argument</strong> 10,101, and 19 when we called it. When the program is ran, it will spit out the answers 110, 1111, and 209.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Awesomeness. Business. Coding.]]></title>
+    <link href="http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding/"/>
+    <updated>2014-01-18T18:08:44-07:00</updated>
+    <id>http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding</id>
+    <content type="html"><![CDATA[<p>Welcome to my blog!</p>
+
+<br/>
+
+
+<ul>
+<li>Code: I will post various problems and solutions for the problems I run into.</li>
+<li>Business: I will talk about different brands, interesting articles and business practices good and bad.</li>
+<li>Life: I enjoy life to the fullest</li>
+</ul>
+
+
+<br/>
+
+
+<br/>
+
+
+<br/>
+
+
+<blockquote><p>&ldquo;Some people drift through their entire life. They do it one day at a time, one week at a time, one month at a time. It happens so gradually they are unaware of how their lives are slipping away until it&rsquo;s too late.&rdquo;</p></blockquote>
+
+<p>The thought of that is absolutely scary. One of my business mentors always has told me to visualize myself as a lemon and at the very end of life, you want to make sure you have squeezed every drop of life out of that lemon.</p>
+
+<br/>
+
+
+<h2>Commitment <br/></h2>
+
+<p>My goal is to update this site <strong>once a week</strong> or as I come across coding issues that have caused me major headaches. To try and help you avoid what I went through in a lot shorter time.</p>
+
+<br/>
+
+
+<br/>
+
+
+<p>-Cory Smith</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Arguments vs Parameters - Cory's Blog of ABC's</title>
+  <meta name="author" content="Cory Smith">
+
+  
+  <meta name="description" content="No, no. I am not talking about proper ways to communicate or anything like that. That&rsquo;s a whole other coversation. Today&rsquo;s post is about &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://corysmith.github.io/blog/2014/01/22/arguments-vs-parameters/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Cory's Blog of ABC's" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:corysmith.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+    <li><a href="/">
+        <span class="blue_light">
+            Cory's Blog of ABC's
+        </span>
+       
+           <span class="blue_dark">
+             Awesomeness. Business. Coding.
+           </span>
+       
+    </a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Arguments vs Parameters</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-22T20:58:41-07:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>No, no. I am not talking about proper ways to communicate or anything like that. That&rsquo;s a whole other coversation. Today&rsquo;s post is about coding.<br></p>
+
+<br>
+
+
+<h2>What is it?</h2>
+
+<br>
+
+
+<p>Parameters and Arguments are very common practices and the <strong>foundation</strong> of Ruby coding. This can be very confusing when new to ruby.</p>
+
+<pre><code>def multiply_by_11(n)   
+  puts n * 11
+end
+
+multiply_by_11(10)
+multiply_by_11(101)
+multiply_by_11(19)   
+</code></pre>
+
+<br>
+
+
+<p>Above is a very simple Method that I &ldquo;defined&rdquo; AKA named &ldquo;multiply_by_11&rdquo;. It takes whatever number I want and multiplies it by 11. Which is the best number in the world, if I must say. For no reason, other then it is my favorite number. Okay enough jibber jabber. Let&rsquo;s get back to business.</p>
+
+<h3>Parameter</h3>
+
+<p>I like to think of a parameter as a &ldquo;place holder&rdquo; or a &ldquo;nickname&rdquo; for that patucular section of code.   The (n) right after &ldquo;multiply_by_11&rdquo; is the parameter that is short for number.</p>
+
+<h3>Argument</h3>
+
+<p>Is the actual number that I want to find the answer to. In this case there is a total of 3 arguments (10), (101), and (19). An argument is only at the end, after the method is defined and the parameter is set.</p>
+
+<br>
+
+
+<h3>Conclusion</h3>
+
+<p> We created the method &ldquo;multiply_by_11&rdquo; above, we gave it the <strong>parameter</strong> &ldquo;n&rdquo; for number, but passed it the <strong>argument</strong> 10,101, and 19 when we called it. When the program is ran, it will spit out the answers 110, 1111, and 209.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Cory Smith</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-22T20:58:41-07:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/coding/'>coding</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://corysmith.github.io/blog/2014/01/22/arguments-vs-parameters/" data-via="" data-counturl="http://corysmith.github.io/blog/2014/01/22/arguments-vs-parameters/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/01/18/awesomeness-business-coding/" title="Previous Post: Awesomeness. Business. Coding.">&laquo; Awesomeness. Business. Coding.</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/22/arguments-vs-parameters/">Arguments vs Parameters</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/18/awesomeness-business-coding/">Awesomeness. Business. Coding.</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Cory Smith -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
