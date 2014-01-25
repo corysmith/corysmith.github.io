@@ -4,7 +4,7 @@
   <title><![CDATA[Cory's Blog of ABC's]]></title>
   <link href="http://corysmith.github.io/atom.xml" rel="self"/>
   <link href="http://corysmith.github.io/"/>
-  <updated>2014-01-22T21:15:03-07:00</updated>
+  <updated>2014-01-24T19:25:05-07:00</updated>
   <id>http://corysmith.github.io/</id>
   <author>
     <name><![CDATA[Cory Smith]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Variables]]></title>
+    <link href="http://corysmith.github.io/blog/2014/01/24/the-different-type-of-ruby-variables/"/>
+    <updated>2014-01-24T18:06:33-07:00</updated>
+    <id>http://corysmith.github.io/blog/2014/01/24/the-different-type-of-ruby-variables</id>
+    <content type="html"><![CDATA[<h3>What the heck is a variable?</h3>
+
+<br>
+
+
+<p>A variable is a place to store data. Each variable is given a unique name
+An <em>important</em>  factor when coding Ruby is the scope of a variable and where it is visible in a program.</p>
+
+<h3>There are 4 main variables.</h3>
+
+<br>
+
+
+<h4>Global Variables</h4>
+
+<br>
+
+
+<p>These variables are available throughout the <strong>ENTIRE</strong> program. You must be careful when using global vaiables as it can cause for major headaches when trying to de-bug! Global variables are hardly used and are the least common variable. Global variables will start out with the symbol $</p>
+
+<h4>Local Variables</h4>
+
+<br>
+
+
+<p>They always begin with a lower case letter or &ldquo;_&rdquo; character. They are only available for certain methods within your program. Local variables do not work well with instance variables and global variables. They do not have a special character in front of them and is only available inside a method block.</p>
+
+<br>
+
+
+<h4>Class Variables</h4>
+
+<br>
+
+
+<p>They belong to a specific class. Class variables start with the characters @@. They only store data for the Class and not it&rsquo;s decendents. Which essentially means all objects created from a particular class, share class variables. Unlike global variables, class variables must be initialized before they are used.</p>
+
+<br>
+
+
+<h4>Instance Variables.</h4>
+
+<br>
+
+
+<p>Are variables that belong to a particular instances of a class and do <strong>NOT</strong> effect the entire class. Instance variables start with only one @. ex: @cory vs class variables @@cory. These are the most common variables as they are flexable and allow to de-bug easier.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Arguments vs Parameters]]></title>
