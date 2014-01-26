@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Awesomeness. Business. Coding. - Cory's Blog of ABC's</title>
+  <title>Ruby Variables - Cory's Blog of ABC's</title>
   <meta name="author" content="Cory Smith">
 
   
-  <meta name="description" content="Welcome to my blog! Code: I will post various problems and solutions for the problems I run into.
-Business: I will talk about different brands, &hellip;">
+  <meta name="description" content="What the heck is a variable? A variable is a place to store data. Each variable is given a unique name
+An important factor when coding Ruby is the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ Business: I will talk about different brands, &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding/">
+  <link rel="canonical" href="http://corysmith.github.io/blog/2014/01/24/the-different-type-of-ruby-variables/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -71,7 +71,7 @@ Business: I will talk about different brands, &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Awesomeness. Business. Coding.</h1>
+      <h1 class="entry-title">Ruby Variables</h1>
     
     
       <p class="meta">
@@ -87,52 +87,59 @@ Business: I will talk about different brands, &hellip;">
   
 
 
-<time datetime="2014-01-18T18:08:44-07:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
+<time datetime="2014-01-24T18:06:33-07:00" pubdate data-updated="true">Jan 24<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Welcome to my blog!</p>
+<div class="entry-content"><h3>What the heck is a variable?</h3>
 
-<br/>
-
-
-<ul>
-<li>Code: I will post various problems and solutions for the problems I run into.</li>
-<li>Business: I will talk about different brands, interesting articles and business practices good and bad.</li>
-<li>Life: I enjoy life to the fullest</li>
-</ul>
+<br>
 
 
-<br/>
+<p>A variable is a place to store data. Each variable is given a unique name
+An <em>important</em>  factor when coding Ruby is the scope of a variable and where it is visible in a program.</p>
+
+<h3>There are 4 main variables.</h3>
+
+<br>
 
 
-<br/>
+<h4>Global Variables</h4>
+
+<br>
 
 
-<br/>
+<p>These variables are available throughout the <strong>ENTIRE</strong> program. You must be careful when using global vaiables as it can cause for major headaches when trying to de-bug! Global variables are hardly used and are the least common variable. Global variables will start out with the symbol $</p>
+
+<h4>Local Variables</h4>
+
+<br>
 
 
-<blockquote><p>&ldquo;Some people drift through their entire life. They do it one day at a time, one week at a time, one month at a time. It happens so gradually they are unaware of how their lives are slipping away until it&rsquo;s too late.&rdquo;</p></blockquote>
+<p>They always begin with a lower case letter or &ldquo;_&rdquo; character. They are only available for certain methods within your program. Local variables do not work well with instance variables and global variables. They do not have a special character in front of them and is only available inside a method block.</p>
 
-<p>The thought of that is absolutely scary. One of my business mentors always has told me to visualize myself as a lemon and at the very end of life, you want to make sure you have squeezed every drop of life out of that lemon.</p>
-
-<br/>
+<br>
 
 
-<h2>Commitment <br/></h2>
+<h4>Class Variables</h4>
 
-<p>My goal is to update this site <strong>once a week</strong> or as I come across coding issues that have caused me major headaches. To try and help you avoid what I went through in a lot shorter time.</p>
-
-<br/>
+<br>
 
 
-<br/>
+<p>They belong to a specific class. Class variables start with the characters @@. They only store data for the Class and not it&rsquo;s decendents. Which essentially means all objects created from a particular class, share class variables. Unlike global variables, class variables must be initialized before they are used.</p>
+
+<br>
 
 
-<p>-Cory Smith</p>
+<h4>Instance Variables.</h4>
+
+<br>
+
+
+<p>Are variables that belong to a particular instances of a class and do <strong>NOT</strong> effect the entire class. Instance variables start with only one @. ex: @cory vs class variables @@cory. These are the most common variables as they are flexable and allow to de-bug easier.</p>
 </div>
 
 
@@ -155,12 +162,12 @@ Business: I will talk about different brands, &hellip;">
   
 
 
-<time datetime="2014-01-18T18:08:44-07:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
+<time datetime="2014-01-24T18:06:33-07:00" pubdate data-updated="true">Jan 24<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/awesomeness/'>awesomeness</a>
+    <a class='category' href='/blog/categories/coding/'>coding</a>
   
 </span>
 
@@ -169,7 +176,7 @@ Business: I will talk about different brands, &hellip;">
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding/" data-via="" data-counturl="http://corysmith.github.io/blog/2014/01/18/awesomeness-business-coding/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://corysmith.github.io/blog/2014/01/24/the-different-type-of-ruby-variables/" data-via="" data-counturl="http://corysmith.github.io/blog/2014/01/24/the-different-type-of-ruby-variables/" >Tweet</a>
   
   
   
@@ -178,8 +185,8 @@ Business: I will talk about different brands, &hellip;">
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/01/22/arguments-vs-parameters/" title="Previous Post: Arguments vs Parameters">&laquo; Arguments vs Parameters</a>
       
-        <a class="basic-alignment right" href="/blog/2014/01/22/arguments-vs-parameters/" title="Next Post: Arguments vs Parameters">Arguments vs Parameters &raquo;</a>
       
     </p>
   </footer>
